@@ -42,9 +42,9 @@ docker run -d -p 8080:80 blue-app
 ---
 ## 🔁 Load Balancer Output
 ### Blue Traffic
-![Blue Output](screenshots/load-balancer-output.png)
+![Blue Output](screenshots/load-balancer-output-blue.png)
 ### Green Traffic
-![Green Output](screenshots/load-balancer-output.png2.png)
+![Green Output](screenshots/load-balancer-output-green.png)
 ---
 ## 🎯 Key Features
 - Zero downtime deployment
