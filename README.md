@@ -1,33 +1,4 @@
-# 🚀 Blue-Green Deployment on AWS using Docker
 
-## 📌 Overview
-This project demonstrates a **Blue-Green Deployment strategy** using AWS EC2, Docker, and an Application Load Balancer (ALB).  
-It ensures **zero-downtime deployment** by switching traffic between two identical environments: Blue and Green.
-
----
-
-## 🏗️ Architecture
-
-![Architecture](./screenshots/blue-green-deployment-diagram.png)
-
----
-
-## 🎯 Objective
-
-- Achieve zero downtime deployment
-- Enable easy rollback between versions
-- Improve deployment reliability
-- Understand real-world DevOps workflow
-
----
-
-## 🔄 How It Works
-
-1. Application is deployed on **Blue environment (current live version)**
-2. New version is deployed on **Green environment**
-3. AWS Load Balancer controls traffic routing
-4. Once tested, traffic is switched to Green
-5. Blue becomes standby for rollback
 # 🚀 Blue-Green Deployment on AWS using Docker
 ## 📌 Project Overview
 This project demonstrates a **Blue-Green Deployment strategy** using AWS EC2 instances and Docker containers. It ensures zero-downtime deployment by switching traffic between two identical environments (Blue and Green) using an AWS Application Load Balancer.
